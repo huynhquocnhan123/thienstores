@@ -85,8 +85,6 @@ div.wap_menu{
     text-align: center;
     line-height: 0;
     transition: 0.4s;
-    padding: 30px 0 0;
-    background-color: #000000;
 }
 
 .wap_menu.scrollUp {
@@ -108,7 +106,7 @@ div.wap_menu{
 .main_logo a{
     position: absolute;
     left: 0;
-    top: -42%;
+    top: -75%;
 }
 
 
@@ -202,12 +200,12 @@ div#wp_slider{
     float: left;
 }
 #category_list{
-    width: 100%;
-    /*float: left;*/
+    width: 30%;
+    float: right;
     position: absolute;
-    left: 0;
+    right: 0;
     z-index: 500;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 ul.category_list_level{
     max-width: 300px;
@@ -441,7 +439,7 @@ div#wap_footer{
     text-transform: uppercase;
 }
 .col_footer_infomation{
-    width: 20%;
+    width: 45%;
     float: left;
     margin-bottom: 50px;
 }
@@ -493,6 +491,7 @@ div#wap_footer{
     float: left;
     margin-bottom: 50px;
 }
+
 .footer_social_title{
     background: linear-gradient(0deg, #00CCFF, #00CCFF), url(278606680_1714134218929832_4513931867211657954_n.png);
     font-family: 'Play';
@@ -839,7 +838,7 @@ ul.dm_cap2 {
 .logo {
     display: inline-block;
     transition: 0.4s;
-    max-width: 168px;
+    max-width: 140px;
 }
 
 
@@ -855,15 +854,14 @@ form#frm_dknt {
 .cart_info span{display: flex;align-items: center;}
 .cart_info p span.hienthimau{height: 15px;width: 15px;}
 #cart_total{margin-top: 20px}
-.wap_menu_bottom{margin-bottom: 25px;margin-top: 25px}
+.wap_bottommenu{border-top: 5px solid #F5DD00; height: 80px;}
 div.menu ul li .cart_info a{padding: 0;color: #000000;font-family: 'Play';font-size: 13px;}
 div.menu ul li .cart_info p{font-family: 'Play';font-size: 11px;color: #635e5e;line-height: 25px}
 div.wap_menu .menu{
     width:100%;
     margin:0px auto;
     position:relative;
-    padding: 20px 0 10px;
-    border-top: 5px solid #F5DD00;
+    padding: 25px 0 25px;
     background: radial-gradient(47.99% 8691.07% at 50% 50%, #373737 0%, #000000 100%) ;
 }
 div.menu ul{
@@ -872,7 +870,7 @@ div.menu ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 1060px;
+    max-width: 1100px;
 }
 div.menu ul li{display:inline-block;vertical-align:top;position:relative;z-index:50;text-align:center}
 div.menu ul li.line_menu{height:42px;width:2px;border-left:solid 1px #363636;border-right:solid 1px #282828;padding:0;margin:0}
@@ -880,7 +878,7 @@ div.menu ul li a{
     color:#ffffff;
     font-size:12px;
     line-height:1em;
-    padding:15px 22px;
+    padding:15px 50px;
     text-decoration:none;
     text-transform:uppercase;
     display:inline-block;
@@ -1406,9 +1404,9 @@ input[type=number]::-webkit-outer-spin-button {
 .color_box{width: 15px;height: 15px;display: inline-block;margin-left: 7px;border:1px solid #000;}
 .cart_item .size_box{margin-left: 7px}
 .remove-cart a{text-decoration: underline;color: blue!important}
-#social {text-align: left;margin-top: 10px;}
-#social a{ display: flex;align-items: center;text-transform: uppercase;font-weight: 300;margin-bottom: 5px}
-#social img{ max-height: 28px ;display: inline-block;margin-right: 10px}
+.social {display: flex; justify-content: center;}
+.social a{ align-items: center;margin-bottom: 5px}
+.social img{ max-height: 40px ;margin-right: 10px; border-radius: 50%; border: 1px solid #fff; }
 .flex-end{justify-content: flex-end!important;}
 .flex-start{justify-content: flex-start!important;}
 #video_index{
@@ -1641,9 +1639,8 @@ span.hotline_title{
     margin-top: 50px;
 }
 .product_index{
-    width: 100%;
-    /*float: left;*/
-    margin-top: 800px;
+    width: 71%;
+    float: left;
 }
 .motocycle_accessories_title{
     background: #000000;
@@ -1667,12 +1664,10 @@ span.hotline_title{
 }
 .slick_product{
    width: 100%;
-   margin: auto auto auto -8px;
+   margin-left: -10px;
 }
-
-/*add*/
 .product_items{
-    width: calc((100%/4) - 20px);
+    width: calc((100%/3) - 20px);
     margin: 20px 8px 30px;
     vertical-align: top;
     box-sizing: border-box;
@@ -1710,12 +1705,11 @@ p.products_price{
     font-weight: bold;
     font-size: 14px;
 }
-/*add*/
 .details_button{
     position: absolute;
     top: -100%;
     width: 298px;
-    height: 100%;
+    height: 252px;
     background: rgba(108, 122, 137,0.5);
 }
 .product_items:hover .details_button{
@@ -1912,7 +1906,7 @@ a.details_link{
     margin-top: 50px;
 }
 .brands_index{
-    width: 100%;
+    width: 71%;
     float: left;
 }
 .brands_title{
@@ -2359,42 +2353,3 @@ a.other_details_link{
     display: inline-block;
 }
 /*------------------------------ phần thương hiệu trong sản phẩm ------------------------------------------------*/
-/*add*/
-/*banner*/
-.banner{
-    display: flex;
-    width: 100% !important;
-}
-.category_list_level{
-    min-width: 300px;
-}
-.container__img img{
-    height: 100%;
-    margin-left: 20px;
-}
-
-/*-----------product--------*/
-.product_saler{
-    margin-top: 50px;
-}
-/*-------responsive-----------*/
-@media screen and (max-width: 1200px){
-
-}
-@media screen and (max-width: 1100px){
-
-}
-@media screen and (max-width: 1050px){
-
-    .details_button{
-        height: 100%;
-    }
-    .product_items{
-        width: calc((100%/3) - 20px);
-    }
-}
-@media screen and (max-width: 700px){
-    .product_items{
-        width: calc((100%/2) - 20px);
-    }
-}
