@@ -76,7 +76,7 @@
         <?php phanquyen_menu('Hình About Us','slider','man_photo','gioithieu'); ?>
         <?php //phanquyen_menu('Hình Banner trang sản phẩm','slider','man_photo','banner_product'); ?>
         <?php //phanquyen_menu('Hình Size Chart','background','capnhat','sizechart'); ?>
-        <?php //phanquyen_menu('Hình Icon MXH','slider','man_photo','social'); ?>
+        <?php phanquyen_menu('Hình Icon MXH','slider','man_photo','social'); ?>
         <?php //phanquyen_menu('Cập nhật Popup quảng cáo','background','capnhat','pupop'); ?>
      </ul>
 </li>
