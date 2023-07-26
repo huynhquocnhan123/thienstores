@@ -2353,3 +2353,11 @@ a.other_details_link{
     display: inline-block;
 }
 /*------------------------------ phần thương hiệu trong sản phẩm ------------------------------------------------*/
+#category_list {
+    width: 100%;
+    /* float: left; */
+    position: absolute;
+    left: 0;
+    z-index: 500;
+    margin-bottom: 10px;
+}
